@@ -36,13 +36,13 @@ Below is a listing of various types of UK signal and the proposed methods for ta
 '''.format(_dict['description'], 'image_'+str(i),
                                   _dict['img']['url'], 
                                   '[[{}]](#{}-{}-{})'.format(len(_references), len(_references), 
-                                      *[i.replace(' ', '').replace('.', '').lower() for i in _references[-1]]),
+                                      *[i.replace(' ', '-').replace('.', '').lower() for i in _references[-1]]),
                                   '</br>'.join(_tags))
 
             _out += '## References\n'
 
             for i, ref in enumerate(_references):
-                _out += '### {}. {}, {}\n'.format(i+1, *ref)
+                _out += '#### {}. {}, {}\n'.format(i+1, *ref)
 
         with open(os.path.join(self._root, 'Catalog.md'), 'w') as f:
             f.write(_out)
