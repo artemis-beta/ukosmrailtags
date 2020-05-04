@@ -23,16 +23,16 @@ Below is a listing of various types of UK signal and the proposed methods for ta
 
 | **Description** | **Image** | **Tags** |
 |---|---|---|
-'''.format(f.split('/')[-1].title())
+'''.format(f.split('/')[-1].replace('_', ' ').title())
             _files = glob.glob(os.path.join(f, '*.json'))
             _dict = None
             for i, in_file in enumerate(_files):
                 with open(in_file) as file_obj:
                     _dict = json.load(file_obj)
-                    _tags = ['{}={}'.format(i, _dict['tags'][i]) for i in _dict['tags']]
+                    _tags = ['`{}={}`'.format(i, _dict['tags'][i]) for i in _dict['tags']]
                     _out +='''| {} | ![{}]({}) | {} |
 '''.format(_dict['description'], 'image_'+str(i),
-                                  _dict['img'], '</br>'.join(_tags))
+                                  _dict['img']['url'], '</br>'.join(_tags))
 
         with open(os.path.join(self._root, 'Catalog.md'), 'w') as f:
             f.write(_out)
