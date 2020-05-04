@@ -19,7 +19,7 @@ Below is a listing of various types of UK signal and the proposed methods for ta
 '''
         for f in _folders:
             _folder = f.split('/')[-1]
-            _out+= '[{}](#{})\n'.format(_folder.replace('_', ' ').title(),
+            _out+= '[{}](#{})\n\n'.format(_folder.replace('_', ' ').title(),
                                         _folder.replace('_', '-').lower())
 
 

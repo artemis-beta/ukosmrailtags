@@ -2,10 +2,15 @@
 Below is a listing of various types of UK signal and the proposed methods for tagging them in OpenRailwayMap
 
 [Whistle Board](#whistle-board)
+
 [Crossing Hint](#crossing-hint)
+
 [Departure](#departure)
+
 [Distant](#distant)
+
 [Main](#main)
+
 
 ## Whistle Board
 
