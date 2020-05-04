@@ -38,7 +38,7 @@ Below is a listing of various types of UK signal and the proposed methods for ta
 
 | **Description** | **Image** | | **Tags** |
 |---|---|---|---|
-| UK 4 Aspect Main Signal | ![image_0](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2015_at_Westbury_station_-_signal_W111.JPG/898px-2015_at_Westbury_station_-_signal_W111.JPG) |[[3]](#3-geof-sheppard-cc-by-sa-30) | `railway=signal`</br>`railway:signal:position=left`</br>`railway:signal:main=GB-NR:main`</br>`railway:signal:form=light`</br>`railway:signal:type=four_aspect`</br>`railway:signal:states=red;green;yellow;double_yellow;flashing_double_yellow` |
+| UK 4 Aspect Main Signal | ![image_0](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/2015_at_Westbury_station_-_signal_W111.JPG/898px-2015_at_Westbury_station_-_signal_W111.JPG) |[[3]](#3-geof-sheppard-cc-by-sa-30) | `railway=signal`</br>`railway:signal:position=left`</br>`railway:signal:main=GB-NR:main`</br>`railway:signal:form=light`</br>`railway:signal:type=four_aspect`</br>`railway:signal:states=red;green;yellow;double_yellow` |
 | UK 3 Aspect Main Signal | ![image_1](https://s0.geograph.org.uk/geophotos/04/11/11/4111142_bd795404.jpg) |[[4]](#4-albert-bridge-cc-by-sa-20) | `railway=signal`</br>`railway:signal:position=left`</br>`railway:signal:main=GB-NR:main`</br>`railway:signal:form=light`</br>`railway:signal:type=three_aspect`</br>`railway:signal:states=red;green;yellow` |
 ## References
 #### 1. Oxyman, CC BY-SA 2.0
