@@ -41,7 +41,7 @@ The type of light signal could be inferred just from the number of aspects given
 
 `railway:signal:main:states='red;green;yellow;flashing_yellow;double_yellow;flashing_double_yellow'`
 
-when this information is combined with the `railway:signal:main:design` tag the appearance of the signal can be determined, e.g. a signal with states `red;green;yellow` with type `combined` would be a single lense signal, whereas using the `individual` value would instead make it a three lense signal.
+when this information is combined with the `railway:signal:main:design` tag the appearance of the signal can be determined, e.g. a signal with states `red;green;yellow` with design `combined` would be a single lens signal, whereas using the `individual` value would instead make it a three lens signal.
 
 # Semaphore Signals
 
