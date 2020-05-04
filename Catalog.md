@@ -38,7 +38,7 @@ Below is a listing of various types of UK signal and the proposed methods for ta
 
 | **Description** | **Image** | | **Tags** |
 |---|---|---|---|
-| UK 3 Aspect Main Signal</br>with individual lenses | ![image_0](https://s0.geograph.org.uk/geophotos/04/11/11/4111142_bd795404.jpg) |[[3]](#3-albert-bridge-cc-by-sa-20) | `railway=signal`</br>`railway:signal:position=left`</br>`railway:signal:main=GB-NR:main`</br>`railway:signal:form=light`</br>`railway:signal:type=three_aspect`</br>`railway:signal:states=red;green;yellow`</br>`railway:signal:main:design=individual` |
+| UK 3 Aspect Main Signal</br>with individual lenses | ![image_0](https://s0.geograph.org.uk/geophotos/04/11/11/4111142_bd795404.jpg) |[[3]](#3-albert-bridge-cc-by-sa-20) | `railway=signal`</br>`railway:signal:position=left`</br>`railway:signal:main=GB-NR:main`</br>`railway:signal:form=light`</br>`railway:signal:states=red;green;yellow`</br>`railway:signal:main:design=individual` |
 ## References
 #### 1. Oxyman, CC BY-SA 2.0
 #### 2. limitofshunt, CC BY-NC-SA 2.0
