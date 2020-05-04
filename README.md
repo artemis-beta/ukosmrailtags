@@ -4,6 +4,10 @@ This scheme is built on top of those tags already suggested [here.](https://wiki
 
 Eventually this will be migrated into a git repository with all variations including potential icons held under a JSON library.
 
+# Proposal Catalog
+
+A catalog of various signal types and their tags is given [here](Catalog.md).
+
 # Signal Categories
 
 Tagging of general/main signals should follow the outlines given [here](https://wiki.openstreetmap.org/wiki/OpenRailwayMap/Tagging/Signal#Signal_Categories) and [here](https://wiki.openstreetmap.org/wiki/Key:railway:signal:main).
