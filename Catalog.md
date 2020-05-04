@@ -1,6 +1,12 @@
 # UK Signals Database for OSM
 Below is a listing of various types of UK signal and the proposed methods for tagging them in OpenRailwayMap
 
+[Whistle Board](#whistle-board)
+[Crossing Hint](#crossing-hint)
+[Departure](#departure)
+[Distant](#distant)
+[Main](#main)
+
 ## Whistle Board
 
 | **Description** | **Image** | | **Tags** |
@@ -30,3 +36,6 @@ Below is a listing of various types of UK signal and the proposed methods for ta
 ## References
 #### 1. limitofshunt, CC BY-NC-SA 2.0
 #### 2. Albert Bridge, CC BY-SA 2.0
+
+
+This is an automatically generated document.

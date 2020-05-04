@@ -15,7 +15,14 @@ class SignalEntryParser(object):
 
         _out = '''# UK Signals Database for OSM
 Below is a listing of various types of UK signal and the proposed methods for tagging them in OpenRailwayMap
+
 '''
+        for f in _folders:
+            _folder = f.split('/')[-1]
+            _out+= '[{}](#{})\n'.format(_folder.replace('_', ' ').title(),
+                                        _folder.replace('_', '-').lower())
+
+
         _references = []
 
         for f in _folders:
@@ -43,6 +50,8 @@ Below is a listing of various types of UK signal and the proposed methods for ta
 
         for i, ref in enumerate(_references):
             _out += '#### {}. {}, {}\n'.format(i+1, *ref)
+
+        _out += '\n\nThis is an automatically generated document.'
 
         with open(os.path.join(self._root, 'Catalog.md'), 'w') as f:
             f.write(_out)
