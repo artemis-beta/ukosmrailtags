@@ -1,2 +1,78 @@
-# UK OSM Railway Tags
-Proposed railway tagging scheme for UK signals under OpenRailwayMap
+# UK Signalling Tags OSM
+
+This scheme is built on top of those tags already suggested [here.](https://wiki.openstreetmap.org/wiki/OpenRailwayMap/Tagging_in_the_United_Kingdom) As well as staying as compatible as possible with the schemes created for other countries.
+
+Eventually this will be migrated into a git repository with all variations including potential icons held under a JSON library.
+
+# Signal Categories
+
+Tagging of general/main signals should follow the outlines given [here](https://wiki.openstreetmap.org/wiki/OpenRailwayMap/Tagging/Signal#Signal_Categories) and [here](https://wiki.openstreetmap.org/wiki/Key:railway:signal:main).
+
+In order to get a scheme up and running for now specific models of signal are not included. This tagging scheme will act as a default where the particular model (i.e. generation) is not stated. As it is unlikely every model will be iconised, and that all UK signals follow the same basic structure, this scheme would likely be the one used when attaching images to tags on OpenRailwayMap. For tags with multiple options, where only `GB-NR:<class>` is stated the more common type will be used during mapping.
+
+## UK Signal Tags
+
+**NOTE:** Where appropriate the tags below must be accompanied with a `railway:signal:form='sign'` tag, e.g. speed limit boards, whistle boards etc.
+
+|**Key**| **Value(s)** | **Description** |
+|---|---|---|
+|`railway:signal:main`| `GB-NR:main` | Main signal type |
+|`railway:signal:departure`| `GB-NR:on_off`</br>`GB-NR:right_away`| Departure indicator that displays "OFF"</br>Departure indicator that displays "RA"|
+|`railway:signal:whistle_board` | `GB-NR:whistle_board:main`</br>`GB-NR:whistle_board:sound_whistle` | "W" boards for horn/whistle</br>"SW" boards|
+|`railway:signal:distant` | `GB-NR:distant` | Distant signal type |
+|`railway:signal:shunting` | `GB-NR:shunting`</br>`GB-NR:shunting:limit` | Main shunting signal</br>Limit of shunt indicator |
+|`railway:signal:stop`| `GB-NR:stop:main` | STOP notice board (would include tag for setting sub-message)|
+|`railway:signal:main_repeated` | `GB-NR:main_repeated:banner` | Banner repeater |
+|`railway:signal:crossing_hint` | `GB-NR:crossing_hint` | Level crossing advance warning (black cross on white background)|
+|`railway:signal:crossing` | `GB-NR:crossing` | Level crossing indicator to train driver (not to be confused with for car drivers `crossing:light` etc)|
+|`railway:signal:electricity` | `GB-NR:electricity:neutral`</br>`GB-NR:electricity:neutral_warning`</br> `GB-NR:electricity:changeover` | Neutral section indicator</br>Neutral section warning indicator</br> Traction current changeover zone |
+|`railway:signal:speed_limit` | `GB-NR:speed_limit:main`</br>`GB-NR:speed_limit:left`</br>`GB-NR:speed_limit:right` | Speed limit on current line</br> Speed limit for left diverging route</br>Speed limit for right diverging route |
+|`railway:signal:speed_limit_distant` | `GB-NR:speed_limit_distant:main`</br>`GB-NR:speed_limit_distant:left`</br>`GB-NR:speed_limit_distant:right` | Warning of speed limit on current line</br> Warning of speed limit for left diverging route</br>Warning of speed limit for right diverging route |
+|`railway:signal:train_protection`|`GB-NR:train_protection:aws_start`</br>`GB-NR:train_protection:aws_end`</br>`GB-NR:train_protection:aws_cancel`</br>`GB-NR:train_protection:aws_special_start`</br>`GB-NR:train_protection:aws_special_end`| Indicator for start of AWS zone</br>Indicator for end of AWS zone</br>AWS cancelling indicator</br>Commencement of special working</br>End of special working |
+|**NEW**`railway:signal:overrun` | `GB-NR:overrun:spad` | SPAD indicator signal|
+
+# Light Signals
+
+The type of light signal could be inferred just from the number of aspects given in:
+
+`railway:signal:main:states='red;green;yellow;flashing_yellow;double_yellow;flashing_double_yellow'`
+
+however I also propose (for clarity):
+
+```
+railway:signal:type='GB-NR:two_aspect'
+railway:signal:type='GB-NR:three_aspect'
+```
+for signals with two, three aspects etc.
+
+# Semaphore Signals
+
+These are defined simply by using the `railway:signal:form=semaphore` tag with the additional option of specifying a type as `railway:signal:type='GB-NR:lower_quadrant'` or `railway:signal:type='GB-NR:upper_quadrant'`.
+
+# Advanced
+
+## Function
+
+If the function of the signal is known these can be stated using the:
+
+`railway:signal:main:function='entry/exit/intermediate/block'`
+
+## Position
+
+If the exact location/position of the signal is known this can also be stated:
+
+|**Tag**|**Values**|**Description**|
+|---|---|---|
+|`railway:position`| <distance value> | Approx position of signal along track (i.e. similar to mileposts). If miles use `mi:`|
+|`railway:position:exact`| <distance value> | Exact position of signal along track (i.e. similar to mileposts). If miles use `mi:`|
+|`railway:signal:position`| `left/right/bridge/overhead/in_track` | Position with respect to the track (`overhead` means attached to catenary, `bridge` to a gantry and `in_track` at centre of track) |
+|`railway:signal:direction`| `forward/backward/both` | Direction for which signal is relevant (related to OSM way direction for track) |
+|`railway:signal:catenary_mast` | `yes/no` | Signal attached to a catenary mast |
+  
+# London Underground
+
+Given some signal types such as Fog Repeaters are specific to London Underground, perhaps another tag set of:
+
+`GB-LU:main_repeater:fog`
+
+could be introduced.
