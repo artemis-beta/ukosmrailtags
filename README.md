@@ -7,6 +7,7 @@ Eventually this will be migrated into a git repository with all variations inclu
 # Proposal Catalog
 
 A catalog of various signal types and their tags is given [here](Catalog.md).
+Eventually this will move from being a single page to a collection of pages for better organisation. The purpose of the catalog is to give examples and help teach tagging etiquette for the various objects along UK railways.
 
 # Signal Categories
 
@@ -33,7 +34,7 @@ In order to get a scheme up and running for now specific models of signal are no
 |`railway:signal:speed_limit` | `GB-NR:speed_limit:main`</br>`GB-NR:speed_limit:left`</br>`GB-NR:speed_limit:right` | Speed limit on current line</br> Speed limit for left diverging route</br>Speed limit for right diverging route |
 |`railway:signal:speed_limit_distant` | `GB-NR:speed_limit_distant:main`</br>`GB-NR:speed_limit_distant:left`</br>`GB-NR:speed_limit_distant:right` | Warning of speed limit on current line</br> Warning of speed limit for left diverging route</br>Warning of speed limit for right diverging route |
 |`railway:signal:train_protection`|`GB-NR:train_protection:aws_start`</br>`GB-NR:train_protection:aws_end`</br>`GB-NR:train_protection:aws_cancel`</br>`GB-NR:train_protection:aws_special_start`</br>`GB-NR:train_protection:aws_special_end`| Indicator for start of AWS zone</br>Indicator for end of AWS zone</br>AWS cancelling indicator</br>Commencement of special working</br>End of special working |
-|**NEW**`railway:signal:overrun` | `GB-NR:overrun:spad` | SPAD indicator signal|
+|**NEW** `railway:signal:overrun` | `GB-NR:overrun:spad` | SPAD indicator signal|
 
 # Light Signals
 
@@ -74,3 +75,13 @@ Given some signal types such as Fog Repeaters are specific to London Underground
 `GB-LU:main_repeater:fog`
 
 could be introduced.
+
+# Contributing
+
+Please DO contribute. One of the reasons I have made this repository is that the tagging scheme is so incomplete and it would be great to see UK signals on the map! If you can do any of the following please contact me:
+
+* **You know how to build/develop OpenRailwayMap** - I have been developing SVGs to represent the various types of signal on OpenRailwayMap in the view of adding more detail for the UK. However I have been unable to build the website locally in order to implement and test features, currently I use my own 'sandbox' [here](https://github.com/artemis-beta/OpenRailChart).
+
+* **You have some tagging ideas/improvements to those stated** - My intention is not to say "this is how it will be done" but rather to have a base from which discussion can occur. I would prefer to be undertaking this as part of a team and for more people to be aware of it.
+
+* **General interest** - You do not even have to be a coder, it would be nice to just build a group of interest.
