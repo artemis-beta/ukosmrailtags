@@ -1,5 +1,7 @@
 # UK Signalling Tags OSM
 
+**Please Read Contribution Statement at the Bottom!**
+
 This scheme is built on top of those tags already suggested [here.](https://wiki.openstreetmap.org/wiki/OpenRailwayMap/Tagging_in_the_United_Kingdom) As well as staying as compatible as possible with the schemes created for other countries.
 
 Eventually this will be migrated into a git repository with all variations including potential icons held under a JSON library.
