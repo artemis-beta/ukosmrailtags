@@ -41,9 +41,9 @@ In order to get a scheme up and running for now specific models of signal are no
 
 SPAD indicators are a unique signal used in regions where a Signal Passed At Danger would pose a huge risk in terms of conflicting movements. The signal reference is 'SPAD INDICATOR' followed by the reference of the signal for which it is associated as such a special format for `ref` is needed, propose using the prefix `SI-`.
 
-|**Tag**| **Value(s)** | **Description** |
-|---|---|---|
-|`railway:signal:overrun`</br>`ref`</br>`railway:signal:states` | `GB-NR:overrun:spad`</br>`SI-<signal-ref>`</br>`off;spad` | SPAD indicator signal |
+|**Tag**| **Value(s)** |
+|---|---|
+|`railway:signal:overrun`</br>`ref`</br>`railway:signal:states` | `GB-NR:overrun:spad`</br>`SI-<signal-ref>`</br>`off;spad` ||
 
 # Light Signals
 
