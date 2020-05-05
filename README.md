@@ -21,7 +21,7 @@ In order to get a scheme up and running for now specific models of signal are no
 
 **NOTE:** Where appropriate the tags below must be accompanied with a `railway:signal:form='sign'` tag, e.g. speed limit boards, whistle boards etc.
 
-|**Key**| **Value(s)** | **Description** |
+|**Tag**| **Value(s)** | **Description** |
 |---|---|---|
 |`railway:signal:main`| `GB-NR:main` | Main signal type |
 |`railway:signal:departure`| `GB-NR:on_off`</br>`GB-NR:right_away`| Departure indicator that displays "OFF"</br>Departure indicator that displays "RA"|
@@ -36,7 +36,13 @@ In order to get a scheme up and running for now specific models of signal are no
 |`railway:signal:speed_limit` | `GB-NR:speed_limit:main`</br>`GB-NR:speed_limit:left`</br>`GB-NR:speed_limit:right` | Speed limit on current line</br> Speed limit for left diverging route</br>Speed limit for right diverging route |
 |`railway:signal:speed_limit_distant` | `GB-NR:speed_limit_distant:main`</br>`GB-NR:speed_limit_distant:left`</br>`GB-NR:speed_limit_distant:right` | Warning of speed limit on current line</br> Warning of speed limit for left diverging route</br>Warning of speed limit for right diverging route |
 |`railway:signal:train_protection`|`GB-NR:train_protection:aws_start`</br>`GB-NR:train_protection:aws_end`</br>`GB-NR:train_protection:aws_cancel`</br>`GB-NR:train_protection:aws_special_start`</br>`GB-NR:train_protection:aws_special_end`| Indicator for start of AWS zone</br>Indicator for end of AWS zone</br>AWS cancelling indicator</br>Commencement of special working</br>End of special working |
-|**NEW** `railway:signal:overrun` | `GB-NR:overrun:spad` | SPAD indicator signal|
+
+# SPAD Indicators
+
+SPAD indicators are a unique signal used in regions where a Signal Passed At Danger would pose a huge risk in terms of conflicting movements. The signal reference is 'SPAD INDICATOR' followed by the reference of the signal for which it is associated as such a special format for `ref` is needed, propose using the prefix `SI-`.
+
+|**Tag**| **Value(s)** | **Description** |
+|**NEW** `railway:signal:overrun`</br>`ref`</br>`railway:signal:states` | `GB-NR:overrun:spad`</br>`SI-<signal-ref>`</br>`off;spad` | SPAD indicator signal |
 
 # Light Signals
 
