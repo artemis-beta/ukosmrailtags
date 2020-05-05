@@ -8,7 +8,7 @@ Eventually this will be migrated into a git repository with all variations inclu
 
 # Proposal Catalog
 
-A catalog of various signal types and their tags is given [here](Catalog.md).
+A catalog of various signal types and their tags is under construction [here](Catalog.md).
 Eventually this will move from being a single page to a collection of pages for better organisation. The purpose of the catalog is to give examples and help teach tagging etiquette for the various objects along UK railways.
 
 # Signal Categories
