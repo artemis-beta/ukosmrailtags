@@ -84,6 +84,8 @@ Please DO contribute. One of the reasons I have made this repository is that the
 
 * **You know how to build/develop OpenRailwayMap** - I have been developing SVGs to represent the various types of signal on OpenRailwayMap in the view of adding more detail for the UK. However I have been unable to build the website locally in order to implement and test features, currently I use my own 'sandbox' [here](https://github.com/artemis-beta/OpenRailChart).
 
-* **You have some tagging ideas/improvements to those stated** - My intention is not to say "this is how it will be done" but rather to have a base from which discussion can occur. I would prefer to be undertaking this as part of a team and for more people to be aware of it.
+* **You want to add to the catalog** - If you want to add a missing example with relevant tags fork this repository and let me know. I will explain the form and we can discuss if what I am actually doing here is a good structure.
+
+* **You have some tagging ideas/improvements to those stated** - I can add suggested tags/examples myself if you would prefer not to. My intention is not to say "this is how it will be done" but rather to have a base from which discussion can occur. I would prefer to be undertaking this as part of a team and for more people to be aware of it.
 
 * **General interest** - You do not even have to be a coder, it would be nice to just build a group of interest.
