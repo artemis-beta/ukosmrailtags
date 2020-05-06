@@ -53,6 +53,8 @@ The type of light signal could be inferred just from the number of aspects given
 
 when this information is combined with the `railway:signal:main:design` tag the appearance of the signal can be determined, e.g. a signal with states `red;green;yellow` with design `combined` would be a single lens signal, whereas using the `individual` value would instead make it a three lens signal.
 
+**NEW** Consider tag `railway:signal:form=light`, `railway:signal:type=LED` for newer LED signals
+
 # Semaphore Signals
 
 These are defined simply by using the `railway:signal:form=semaphore` tag with the additional option of specifying a type as `railway:signal:type='GB-NR:lower_quadrant'` or `railway:signal:type='GB-NR:upper_quadrant'`.
