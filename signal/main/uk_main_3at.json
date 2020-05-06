@@ -3,8 +3,8 @@
         "railway": "signal",
         "railway:signal:position": "left",
         "railway:signal:main": "GB-NR:main",
-        "railway:signal:form": "light",
-        "railway:signal:states": "red;green;yellow",
+        "railway:signal:main:form": "light",
+        "railway:signal:main:states": "red;green;yellow",
         "railway:signal:main:design": "individual"
     },
     "img": {

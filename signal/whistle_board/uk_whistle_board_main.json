@@ -3,7 +3,7 @@
         "railway": "signal",
         "railway:signal:position": "right",
         "railway:signal:whistle_board": "GB-NR:whistle_board:main",
-        "railway:signal:form": "sign"
+        "railway:signal:whistle_board:form": "sign"
     },
     "img": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Whistle_%28104929577%29.jpg/1600px-Whistle_%28104929577%29.jpg",

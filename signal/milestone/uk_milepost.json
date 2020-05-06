@@ -2,7 +2,7 @@
     "tags": {
         "railway": "signal",
         "railway:signal:milestone": "GB-NR:milepost",
-        "railway:signal:form": "sign",
+        "railway:signal:milestone:form": "sign",
         "railway:signal:position" : "mi:37.25"
     },
     "img": {

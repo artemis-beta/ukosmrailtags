@@ -1,7 +1,7 @@
 {
     "tags": {
-        "railway:signal:form": "light",
-        "railway:signal:states": "off;spad",
+        "railway:signal:overrun:form": "light",
+        "railway:signal:overrun:states": "off;spad",
         "railway:signal:position": "left",
         "ref": "SI-CO624",
         "railway": "signal",

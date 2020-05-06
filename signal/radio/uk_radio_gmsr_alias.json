@@ -1,9 +1,9 @@
 {
     "tags": {
         "railway": "signal",
-        "railway:signal:position": "left",
-        "railway:signal:form" : "sign",
         "railway:signal:radio": "GB-NR:GSM-R",
+        "railway:signal:position": "left",
+        "railway:signal:radio:form" : "sign",
         "railway:signal:radio:type" : "alias",
         "ref": "093"
     },

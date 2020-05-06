@@ -21,6 +21,8 @@ In order to get a scheme up and running for now specific models of signal are no
 
 **NOTE:** Where appropriate the tags below must be accompanied with a `railway:signal:form='sign'` tag, e.g. speed limit boards, whistle boards etc.
 
+**NOTE:** The signal types can be 'stacked', e.g. a signal of type 'main' could also be a 'route' signal of type 'junction'. 
+
 |**Tag**| **Value(s)** | **Description** |
 |---|---|---|
 |`railway:signal:main`| `GB-NR:main` | Main signal type |
@@ -51,9 +53,7 @@ The type of light signal could be inferred just from the number of aspects given
 
 `railway:signal:main:states='red;green;yellow;flashing_yellow;double_yellow;flashing_double_yellow'`
 
-when this information is combined with the `railway:signal:main:design` tag the appearance of the signal can be determined, e.g. a signal with states `red;green;yellow` with design `combined` would be a single lens signal, whereas using the `individual` value would instead make it a three lens signal.
-
-**NEW** Consider tag `railway:signal:form=light`, `railway:signal:type=LED` for newer LED signals
+when this information is combined with the `railway:signal:main:design` tag the appearance of the signal can be determined, e.g. a signal with states `red;green;yellow` with design `combined` would be an LED signal where different colours can appear within the same circular region, whereas using the `individual` value would instead make it a three lens signal.
 
 # Semaphore Signals
 
