@@ -32,7 +32,7 @@ Below is a listing of various types of UK signal and the proposed methods for ta
 
 | **Description** | **Image** | | **Tags** |
 |---|---|---|---|
-| UK Main LED Junction Signal | ![image_0](https://live.staticflickr.com/5701/29739569974_6f9f991749_b.jpg) |[[3]](#3-r~p~m-cc-by-nc-nd-20) | `railway=signal`</br>`railway:signal:main=GB-NR:main`</br>`railway:signal:route=GB-NR:route`</br>`railway:signal:main:form=light`</br>`railway:signal:main:design=combined`</br>`railway:signal:route:form=light`</br>`railway:signal:route:design=feather`</br>`railway:signal:route:states=position_1`</br>`railway:signal:position=mi:37.25` |
+| UK Main LED Junction Signal | ![image_0](https://live.staticflickr.com/5701/29739569974_6f9f991749_b.jpg) |[[3]](#3-r~p~m-cc-by-nc-nd-20) | `railway=signal`</br>`railway:signal:main=GB-NR:main`</br>`railway:signal:position=left`</br>`railway:signal:route=GB-NR:route`</br>`railway:signal:main:form=light`</br>`railway:signal:main:design=combined`</br>`railway:signal:route:form=light`</br>`railway:signal:route:design=feather`</br>`railway:signal:route:states=position_1` |
 
 ## Overrun
 
@@ -44,7 +44,7 @@ Below is a listing of various types of UK signal and the proposed methods for ta
 
 | **Description** | **Image** | | **Tags** |
 |---|---|---|---|
-| UK Milepost | ![image_0](https://farm5.staticflickr.com/4409/36228271231_fa379d676e_b.jpg) |[[5]](#5-r~p~m-cc-by-nc-nd-20) | `railway=signal`</br>`railway:signal:milestone=GB-NR:milepost`</br>`railway:signal:milestone:form=sign`</br>`railway:signal:position=mi:37.25` |
+| UK Milepost | ![image_0](https://farm5.staticflickr.com/4409/36228271231_fa379d676e_b.jpg) |[[5]](#5-r~p~m-cc-by-nc-nd-20) | `railway=signal`</br>`railway:signal:milestone=GB-NR:milepost`</br>`railway:signal:milestone:form=sign`</br>`railway:position=mi:37.25` |
 
 ## Distant
 

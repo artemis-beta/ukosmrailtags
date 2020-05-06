@@ -3,7 +3,7 @@
         "railway": "signal",
         "railway:signal:milestone": "GB-NR:milepost",
         "railway:signal:milestone:form": "sign",
-        "railway:signal:position" : "mi:37.25"
+        "railway:position" : "mi:37.25"
     },
     "img": {
         "url": "https://farm5.staticflickr.com/4409/36228271231_fa379d676e_b.jpg",
