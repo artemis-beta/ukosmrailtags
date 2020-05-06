@@ -1,0 +1,14 @@
+{
+    "tags": {
+        "railway": "signal",
+        "railway:signal:milestone": "GB-NR:milepost",
+        "railway:signal:form": "sign",
+        "railway:signal:position" : "mi:37.25"
+    },
+    "img": {
+        "url": "https://farm5.staticflickr.com/4409/36228271231_fa379d676e_b.jpg",
+        "license": "CC BY-NC-ND 2.0",
+        "author": "R~P~M"
+    },
+    "description": "UK Milepost"
+}

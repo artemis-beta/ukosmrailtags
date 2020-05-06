@@ -1,0 +1,16 @@
+{
+    "tags": {
+        "railway": "signal",
+        "railway:signal:position": "left",
+        "railway:signal:form" : "sign",
+        "railway:signal:radio": "GB-NR:GSM-R",
+        "railway:signal:radio:type" : "alias",
+        "ref": "093"
+    },
+    "img": {
+        "url": "https://live.staticflickr.com/65535/48809021453_54fbaf13ee_b.jpg",
+        "license": "CC BY-NC-SA 2.0",
+        "author": "RichardAsh1981"
+    },
+    "description": "UK GSM-R Radio Alias Plate"
+}
